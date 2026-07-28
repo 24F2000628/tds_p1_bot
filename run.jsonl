@@ -6,3 +6,12 @@
 {"type": "incoming", "chat_id": 8791303358, "text": "What is 15% of 200? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}", "timestamp": 1785236879.5080302}
 {"type": "model_used", "model": "gemini-3.6-flash", "timestamp": 1785236885.8700197}
 {"type": "outgoing", "chat_id": 8791303358, "text": "{\"answer\": 30, \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785236885.8700197}
+{"type": "incoming", "chat_id": 8791303358, "text": "What is 15% of 200? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}", "timestamp": 1785240290.3017418}
+{"type": "model_used", "model": "gemini-3.6-flash", "timestamp": 1785240292.5279434}
+{"type": "outgoing", "chat_id": 8791303358, "text": "{\"answer\": 30, \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785240292.5279434}
+{"type": "incoming", "chat_id": 8791303358, "text": "What is 2000% of 200? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}", "timestamp": 1785240337.9504578}
+{"type": "model_used", "model": "gemini-3.6-flash", "timestamp": 1785240339.9003882}
+{"type": "outgoing", "chat_id": 8791303358, "text": "{\"answer\": 4000, \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785240339.9003882}
+{"type": "incoming", "chat_id": 8791303358, "text": "What is 2000% of 200? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}", "timestamp": 1785240731.0262778}
+{"type": "model_used", "model": "gemini-3.6-flash", "timestamp": 1785240736.8279262}
+{"type": "outgoing", "chat_id": 8791303358, "text": "{\"answer\": 4000, \"log_url\": \"https://raw.githubusercontent.com/24F2000628/tds_p1_bot/main/run.jsonl\"}", "timestamp": 1785240736.8279262}

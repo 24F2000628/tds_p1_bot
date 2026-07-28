@@ -6,9 +6,17 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 from dotenv import load_dotenv
 import os
+import requests
+import base64
+
 
 load_dotenv()
 
+
+
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_REPO = os.getenv("GITHUB_REPO")
+GITHUB_FILE_PATH = os.getenv("GITHUB_FILE_PATH")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 LOG_URL = os.getenv("LOG_URL")
@@ -38,8 +46,34 @@ conversation_history = {}
 
 def log_event(event: dict):
     event["timestamp"] = time.time()
+    line = json.dumps(event) + "\n"
+
+    # Always keep a local copy too
     with open(LOG_FILE, "a") as f:
-        f.write(json.dumps(event) + "\n")
+        f.write(line)
+
+    # Push updated file to GitHub so the raw URL reflects latest data
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE_PATH}"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+
+    # Get current file content + sha (needed to update existing file)
+    resp = requests.get(url, headers=headers)
+    if resp.status_code == 200:
+        current_content = base64.b64decode(resp.json()["content"]).decode()
+        sha = resp.json()["sha"]
+    else:
+        current_content = ""
+        sha = None
+
+    new_content = current_content + line
+    payload = {
+        "message": "Update run.jsonl",
+        "content": base64.b64encode(new_content.encode()).decode(),
+    }
+    if sha:
+        payload["sha"] = sha
+
+    requests.put(url, headers=headers, json=payload)
 
 
 def call_model_with_fallback(messages):
