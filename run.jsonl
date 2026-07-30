@@ -52,3 +52,4 @@
 {"type": "incoming", "chat_id": 1791741021, "text": "India capital", "timestamp": 1785432310.9630055}
 {"type": "model_used", "model": "gemini-3.6-flash", "timestamp": 1785432321.858104}
 {"type": "outgoing", "chat_id": 1791741021, "text": "{\"capital\": \"New Delhi\", \"log_url\": \"https://raw.githubusercontent.com/24F2000628/tds_p1_bot/main/run.jsonl\"}", "timestamp": 1785432323.1106594}
+{"type": "incoming", "chat_id": 8916528369, "text": "What is 2+2? Reply ONLY with {\"answer\": {\"result\": <number>}, \"log_url\": \"<URL>\"}", "timestamp": 1785432774.5654466}
