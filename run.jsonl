@@ -45,3 +45,4 @@
 {"type": "outgoing", "chat_id": 8791303358, "text": "{\"current_year\": 2026, \"log_url\": \"https://raw.githubusercontent.com/24F2000628/tds_p1_bot/main/run.jsonl\"}", "timestamp": 1785432109.759094}
 {"type": "incoming", "chat_id": 8791303358, "text": "How can I check if a year is leap year", "timestamp": 1785432128.1534386}
 {"type": "model_used", "model": "gemini-3.6-flash", "timestamp": 1785432135.0300813}
+{"type": "outgoing", "chat_id": 8791303358, "text": "{\"how_to_check\": \"A year is a leap year if it is divisible by 4, unless it is a century year (divisible by 100), in which case it must also be divisible by 400.\", \"formula\": \"(year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)\", \"log_url\": \"https://raw.githubusercontent.com/24F2000628/tds_p1_bot/main/run.jsonl\"}", "timestamp": 1785432136.2019343}
