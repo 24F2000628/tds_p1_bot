@@ -51,3 +51,4 @@
 {"type": "outgoing", "chat_id": 8791303358, "text": "{\"tuesdays\": 52, \"log_url\": \"https://raw.githubusercontent.com/24F2000628/tds_p1_bot/main/run.jsonl\"}", "timestamp": 1785432195.1656642}
 {"type": "incoming", "chat_id": 1791741021, "text": "India capital", "timestamp": 1785432310.9630055}
 {"type": "model_used", "model": "gemini-3.6-flash", "timestamp": 1785432321.858104}
+{"type": "outgoing", "chat_id": 1791741021, "text": "{\"capital\": \"New Delhi\", \"log_url\": \"https://raw.githubusercontent.com/24F2000628/tds_p1_bot/main/run.jsonl\"}", "timestamp": 1785432323.1106594}
