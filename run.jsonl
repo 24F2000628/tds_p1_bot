@@ -56,3 +56,4 @@
 {"type": "model_used", "model": "gemini-3.6-flash", "timestamp": 1785432782.2602952}
 {"type": "incoming", "chat_id": 1791741021, "text": "Who is Pm modi", "timestamp": 1785433592.0703146}
 {"type": "model_used", "model": "gemini-3.6-flash", "timestamp": 1785433600.0805671}
+{"type": "incoming", "chat_id": 8916528369, "text": "\"Which state has the highest maternal mortality rate based on MOSPI data? Reply with ONLY a JSON object like {\\\"state\\\": \\\"<state name>\\\"}\"", "timestamp": 1785499956.5970643}
