@@ -62,3 +62,4 @@
 {"type": "incoming", "chat_id": 6178753792, "text": "Tell me article 204", "timestamp": 1785838037.2004733}
 {"type": "model_used", "model": "gemini-3.6-flash", "timestamp": 1785838057.310892}
 {"type": "outgoing", "chat_id": 6178753792, "text": "{\"article\": 204, \"title\": \"Appropriation Bills\", \"constitution\": \"Constitution of India\", \"description\": \"Article 204 deals with Appropriation Bills in the State Legislature. It mandates that after grants under Article 203 are made by the Legislative Assembly, a bill must be introduced to provide for the appropriation out of the Consolidated Fund of the State of all moneys required to meet the grants made by the Assembly and the expenditure charged on the Consolidated Fund.\", \"log_url\": \"https://raw.githubusercontent.com/24F2000628/tds_p1_bot/main/run.jsonl\"}", "timestamp": 1785838058.3102558}
+{"type": "incoming", "chat_id": 6178753792, "text": "who is PM", "timestamp": 1785838081.807782}
