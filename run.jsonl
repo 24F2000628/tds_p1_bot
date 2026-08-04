@@ -65,3 +65,4 @@
 {"type": "incoming", "chat_id": 6178753792, "text": "who is PM", "timestamp": 1785838081.807782}
 {"type": "incoming", "chat_id": 6178753792, "text": "who is PM", "timestamp": 1785838086.0800655}
 {"type": "model_used", "model": "gemini-3.6-flash", "timestamp": 1785838092.5359168}
+{"type": "outgoing", "chat_id": 6178753792, "text": "{\"office\": \"Prime Minister of India\", \"name\": \"Narendra Modi\", \"log_url\": \"https://raw.githubusercontent.com/24F2000628/tds_p1_bot/main/run.jsonl\"}", "timestamp": 1785838093.6458244}
