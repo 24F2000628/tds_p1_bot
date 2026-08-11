@@ -68,3 +68,4 @@
 {"type": "outgoing", "chat_id": 6178753792, "text": "{\"office\": \"Prime Minister of India\", \"name\": \"Narendra Modi\", \"log_url\": \"https://raw.githubusercontent.com/24F2000628/tds_p1_bot/main/run.jsonl\"}", "timestamp": 1785838093.6458244}
 {"type": "model_used", "model": "gemini-3.6-flash", "timestamp": 1785838098.7633717}
 {"type": "outgoing", "chat_id": 6178753792, "text": "{\"answer\": \"Narendra Modi\", \"log_url\": \"https://raw.githubusercontent.com/24F2000628/tds_p1_bot/main/run.jsonl\"}", "timestamp": 1785838099.9589}
+{"type": "incoming", "chat_id": 6178753792, "text": "Who is PM", "timestamp": 1786453399.2681367}
